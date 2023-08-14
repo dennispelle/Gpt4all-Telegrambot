@@ -1,0 +1,14 @@
+version: '3'
+services:
+  dennis_telegram_bot:
+    build:
+      context: .
+      dockerfile: Bot/Dockerfile
+    environment:
+      - BOT_TOKEN=fillyourowntoken
+      - LLM=orca-mini-3b.ggmlv3.q4_0.bin
+      #- LLM=wizardLM-13B-Uncensored.ggmlv3.q4_0.bin
+    volumes:
+      - ./Bot:/app
+    ports:
+      - "443:443"
