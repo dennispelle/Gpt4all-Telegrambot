@@ -1,0 +1,5 @@
+This is a small Dockerthing to make a lokal ChatBot with GPT4All and hook it up to a telegrambot.
+You need a Bottoken from the Botfather of Telegram
+That it is pretty much it. The Code is rather small and easy.
+
+Have fun :)
